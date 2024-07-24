@@ -134,17 +134,18 @@
   .flex-lg-column{
     flex-direction: column;
   }
-  .align-md-center{
+  .align-lg-center{
     align-items: center;
+  }
+  .align-lg-start{
+    align-items: flex-start;
   }
 }
 @media (max-width:767px){
   .flex-md-column{
     flex-direction: column;
   }
-  .align-md-start{
-    align-items: flex-start;
-  }
+  
 }
 .pb-8{
   padding-bottom: 32px;
